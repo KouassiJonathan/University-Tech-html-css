@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* pour la navbar*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 150px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.596);
+  background-color: rgba(204, 201, 201, 0.452);
+}
+
+ul {
+  display: flex;
+  gap: 42px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(3, 75, 143);
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+li a:hover {
+  color: rgba(17, 129, 180, 0.719);
+}
+
+/* pour la section hero*/
+h1 {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: 2px rgba(13, 101, 184, 0.466) solid;
+  box-shadow: 2px 2px 5px blue;
+  color: rgb(3, 75, 143);
+  border-radius: 15px;
+  width: 650px;
+  margin: 25px auto;
+  padding: 5px;
+}
+
+#accueil {
+  padding-top: 5px;
+  padding-bottom: 25px;
+  background-color: rgba(24, 83, 211, 0.281);
+}
+
+.container {
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+img {
+  border-radius: 50px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.title-hero {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 2.1rem;
+  padding-bottom: 20px;
+}
+
+.description {
+  color: rgba(54, 53, 53, 0.795);
+  padding-bottom: 19px;
+}
+
+/*bouton hero*/
+.btn-hero {
+  padding: 10px;
+  width: 115px;
+  background-color: rgb(10, 7, 161);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 2px 2px 5px blue;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-hero:hover {
+  color: rgba(255, 255, 255, 0.397);
+}
+
+/*section formation*/
+.service {
+  background-color: rgba(71, 154, 209, 0.164);
+  padding: 15px;
+  margin: 0;
+}
+
+.title-formation {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  border: 2px rgba(13, 101, 184, 0.466) solid;
+  box-shadow: 2px 2px 5px rgb(79, 159, 206);
+  color: rgb(3, 75, 143);
+  border-radius: 15px;
+  width: 350px;
+  margin: 20px auto;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+.card-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo-html {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-formation {
+  text-align: center;
+  width: 350px;
+  padding: 12px;
+}
+
+.logo-html {
+  margin-top: 40px;
+}
+
+.logo-js {
+  margin-top: 50px;
+}
+
+#service {
+  background-color: rgba(0, 174, 255, 0.096);
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.btn-formation {
+  padding: 10px;
+
+  background-color: rgb(10, 7, 161);
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-formation:hover {
+  color: rgba(255, 255, 255, 0.329);
+}
+
+/*section Contact*/
+.contact-formation {
+  background-color: rgba(24, 83, 211, 0.281);
+  padding: 25px 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+}
+
+#email {
+  margin-bottom: 5px;
+}
+
+select {
+  margin-bottom: 5px;
+}
+
+form {
+  border: 1px rgb(10, 88, 177) solid;
+  margin: 0px 90px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 1px 5px;
+}
+
+input {
+  width: 250px;
+  height: 20px;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+.item-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-contact {
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.btn-contact {
+  padding: 10px;
+  width: 90px;
+  background-color: rgb(10, 7, 161);
+  border-radius: 12px;
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+.btn-contact:hover {
+  box-shadow: 2px 8px 8px black;
+}
+
+.btn-contact a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+  border: 1px rgba(0, 0, 0, 0.336) solid;
+  padding: 5px 10px;
+  box-shadow: 1px 2px 5px black;
+}
+
+.right-footer {
+  display: flex;
+  align-items: center;
+}
+
+.center-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

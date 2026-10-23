@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <title>University Tech</title>
+  </head>
+  <body>
+    <!-- en-tête -->
+    <header>
+      <img
+        src="images/logo.png"
+        alt="logo de la navabar"
+        height="70"
+        class="logo-hero"
+      />
+      <nav class="menu">
+        <!-- menu -->
+        <ul class="menu-item">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- corps -->
+    <main>
+      <!-- hero -->
+      <section id="accueil" class="container">
+        <h1 class="">APPRENEZ LE DÉVELOPPEMENT WEB</h1>
+        <div class="hero">
+          <div>
+            <div>
+              <img
+                src="images/hero.avif"
+                alt="logo de la page d'accueil"
+                width="700"
+              />
+            </div>
+          </div>
+          <div>
+            <h2 class="title-hero">Formez-vous aux métiers du numérique</h2>
+            <p class="description">
+              Des cours pratiques et adaptés pour apprendre le développement web
+              et acquérir des compétences utiles pour le marché du travail.
+            </p>
+            <a href="#service" class="btn-hero">Commencer</a>
+          </div>
+        </div>
+      </section>
+      <!-- Nos Formation -->
+      <section id="service">
+        <div class="service">
+          <h2 class="title-formation">Découvrez nos formation</h2>
+          <div class="card-all">
+            <div class="card">
+              <img
+                src="images/logo-html-removebg.png"
+                alt="le logo html "
+                width="240"
+                class="logo-html"
+              />
+              <p class="text-formation">
+                La formation HTML vous apprend à structurer une page web avec
+                des balises sémantiques, des liens, des images et des
+                formulaires pour créer des interfaces claires et accessibles.
+              </p>
+              <a href="#contact" class="btn-formation">S'inscrire</a>
+            </div>
+            <div class="card">
+              <img
+                src="images/logo-css-removebg.png"
+                alt="le logo CSS "
+                width="175"
+              />
+              <p class="text-formation">
+                Apprenez à utiliser le CSS pour styliser vos pages web et créer
+                des mises en page attractives.
+              </p>
+              <a href="#contact" class="btn-formation">S'inscrire</a>
+            </div>
+            <div class="card">
+              <img
+                src="images/logo-js.png"
+                alt="le logo JS "
+                width="185"
+                class="logo-js"
+              />
+              <p class="text-formation">
+                La formation JavaScript vous apprend à rendre vos pages web
+                interactives, à manipuler le DOM et à créer des fonctionnalités
+                dynamiques pour des sites modernes et performants.
+              </p>
+              <a href="#contact" class="btn-formation">S'inscrire</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Nos Contact -->
+      <section id="contact" class="contact-formation">
+        <h2 class="title-formation">Nous Contacter</h2>
+        <div class="item-contact">
+          <form>
+            <label for="first-name">Nom :</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="Entrez votre Nom"
+            />
+            <label for="last-name">Prénom :</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Entrez votre Prénom"
+            />
+            <label for="email">Email :</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Entrez votre Email"
+            />
+            <label for="select-formation"
+              >Quelle Formation voulez-vous ?
+            </label>
+            <select name="select-formation" id="select-formation">
+              <option value="select-formation" disabled selected>
+                --Choisissez une formation--
+              </option>
+              <option value="HTML">Formation HTML</option>
+              <option value="CSS">Formation CSS</option>
+              <option value="JS">Formation JS</option>
+            </select>
+            <label for="text">Laisser-nous un Commentaire :</label>
+            <textarea
+              name="text"
+              id="text"
+              rows="5"
+              cols="30"
+              placeholder="Entrez votre Commentaire"
+            ></textarea>
+            <button type="submit" class="btn-contact">
+              <a href="#">Envoyer</a>
+            </button>
+          </form>
+          <img
+            src="images/logo-contact.png"
+            alt="logo de contact"
+            width="500"
+            height="280"
+            class="logo-contact"
+          />
+        </div>
+      </section>
+    </main>
+    <!-- pied de page -->
+    <footer>
+      <div class="left-footer">
+        <p>&copy; Tous drois Réservés - 2026</p>
+      </div>
+      <div class="center-footer">
+        <p>University Tech</p>
+        <p>Côte d'Ivoire , Abidjan , Yopougon</p>
+      </div>
+      <div class="right-footer">
+        <img src="images/logo-fb.jpg" alt="logo de Facebook" width="50" />
+        <img src="images/logo-whatsapp.png" alt="logo de whatsapp" width="38" />
+        <img src="images/logo-titok.png" alt="logo de TikTok" width="60" />
+      </div>
+    </footer>
+  </body>
+</html>
